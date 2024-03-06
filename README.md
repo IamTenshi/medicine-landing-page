@@ -1,1 +1,1 @@
-"# medicine-landing-page" 
+# medicine-landing-page
