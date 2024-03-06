@@ -6,15 +6,53 @@
   <title>Medicine landing page</title>
   <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
+<body class="flex min-h-screen">
   <header>
 
   </header>
   <main>
 
   </main>
-  <footer>
-
+  <footer class="flex flex-col justify-between w-full mt-auto bg-cyan-50">
+    <div class="grid justify-between grid-cols-1 p-10 sm:grid-cols-2 md:grid-cols-4 gap-y-6">
+      <div class="flex flex-col flex-1 gap-y-3">
+        <h3 class="text-2xl font-bold text-teal-600">LOGO</h3>
+        <div class="flex gap-x-8">
+          <span>F</span>
+          <span>T</span>
+          <span>I</span>
+        </div>
+      </div>
+      <div class="flex flex-col flex-1 gap-y-3">
+        <h3 class="text-xl font-bold">Menu</h3>
+        <ul class="text-gray-600">
+          <li><a href="#">Cita</a></li>
+          <li><a href="#">Doctor</a></li>
+          <li><a href="#">Covid-19</a></li>
+          <li><a href="#">Consulta</a></li>
+        </ul>
+      </div>
+      <div class="flex flex-col flex-1 gap-y-3">
+        <h3 class="text-xl font-bold">Legal</h3>
+        <ul class="text-gray-600">
+          <li><a href="#">Politica de privacidad</a></li>
+          <li><a href="#">Politica de privacidad</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="flex flex-col flex-1 gap-y-3">
+        <h3 class="text-xl font-bold">Sobre nosotros</h3>
+        <ul class="text-gray-600">
+          <li><a href="#">Testimonios</a></li>
+          <li><a href="#">Nuestra gestion</a></li>
+          <li><a href="#">Nuestra historia</a></li>
+          <li><a href="#">Carrera</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="px-10 py-6 text-sm border-t border-gray-400">
+      &copy; 2024, Medicine Plus. All rights reserved.
+    </div>
   </footer>
 </body>
 </html>
