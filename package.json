@@ -7,7 +7,7 @@
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "prod": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
-  "author": "Angel Jimenez",
+  "author": "Angel Jimenez, Keyther Martinez",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
