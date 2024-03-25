@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="src/output.css">
 </head>
 <body class="flex flex-col min-h-screen">
-  <header class="z-50 w-full px-2 shadow-sm">
+  <header class="z-50 w-full px-2 shadow-md">
     <nav class="justify-center py-3 text-center">
       <div class="flex items-center justify-between">
         <h1 class="text-3xl font-bold">Logo</h1>
@@ -17,11 +17,11 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>            
           </div>
-          <ul id="menu" class="absolute right-0 items-center hidden w-full p-4 text-sm font-semibold bg-white lg:p-0 lg:w-auto top-14 lg:static gap-x-10 lg:flex">
+          <ul id="menu" class="absolute right-0 items-center hidden w-full p-4 font-semibold bg-white text-md lg:p-0 lg:w-auto top-14 lg:static gap-x-10 lg:flex">
             <li><a href="#">Especialidad</a></li>
             <li><a href="#">Estudios</a></li>
             <li><a href="#">Preguntas frecuentes</a></li>
-            <li><a href="#" class="lg:py-2 lg:text-lg lg:font-semibold lg:text-white lg:bg-green-300 lg:rounded-lg lg:px-6">Iniciar sesion</a></li>
+            <li><a href="#" class="lg:py-2 lg:text-lg lg:font-semibold lg:text-white lg:bg-green-300 lg:rounded-lg lg:px-7">Iniciar sesion</a></li>
           </ul>
           
         </div>
@@ -29,36 +29,50 @@
     </nav>
   </header>
 
-  <main class="bg-gray-50">
-    <section>
-      <article class="flex">
-        <div class="items-stretch h-full py-10 my-12 mx-52 w-96 gap-y-3">
-          <h2 class="my-6 text-6xl font-bold text-start">
-            Encuentra tu especialista y pide cita
-          </h2>
-          <span class="text-sm font-semibold">
-            180,000 profesionales estan aqui para ayudarte
-          </span>
-          <button class="py-2 my-10 text-lg font-semibold text-white bg-green-300 rounded-lg px-9 text-start">Ver especialistas</button>
-        </div>
-        <div class="flex items-center justify-end h-60 ">
-          <img src="src/sonriente-joven-doctora-vistiendo-bata-medica-estetoscopio-mostrando-gesto-paz-aislado-sobre-fondo-verde_141793-119254.avif" alt="" width="440px"  class="mt-56 rounded-tl-full rounded-tr-full rounded-br-lg h-96 rounded-bl-xl ">
-        </div>
-      </article>      
+  <main class="px-10 md:px-20 lg:px-40 bg-gray-50">
+    <section class="flex flex-col items-center justify-center my-10 md:flex-row md:gap-x-20 lg:gap-x-40">
+      <div class="flex flex-col order-2 h-full py-10 max-w-96 gap-y-6 md:order-1">
+        <h2 class="text-4xl font-bold md:text-5xl lg:text-6xl text-start">Encuentra tu especialista y pide cita</h2>
+        <span class="font-semibold text-md">180,000 profesionales estan aqui para ayudarte</span>
+        <button class="py-2 text-lg font-semibold text-white bg-green-300 rounded-lg px-9">Ver especialistas</button>
+      </div>
+      <div class="flex items-center justify-center order-1 md:order-2">
+        <img src="src/sonriente-joven-doctora-vistiendo-bata-medica-estetoscopio-mostrando-gesto-paz-aislado-sobre-fondo-verde_141793-119254.avif" alt="" width="440px" class="rounded-tl-full rounded-tr-full rounded-br-lg rounded-bl-xl">
+      </div>
     </section>
-    <section>
+    
+    <section class="flex flex-col items-center justify-center my-10 md:flex-row md:gap-x-20 lg:gap-x-40">
+      <div class="flex flex-col order-2 h-full py-10 max-w-96 gap-y-6">
+        <h2 class="text-4xl font-bold md:text-5xl lg:text-6xl text-start">Encuentra un centro de diganostico y agenda tu estudio</h2>
+        <span class="font-semibold text-md">Compara los precios del estudio en los diferentes centros de diagnostico</span>
+        <!-- <button class="py-2 text-lg font-semibold text-white bg-green-300 rounded-lg px-9">Ver especialistas</button> -->
+      </div>
+      <div class="flex items-center justify-center order-1">
+        <img src="src/sonriente-joven-doctora-vistiendo-bata-medica-estetoscopio-mostrando-gesto-paz-aislado-sobre-fondo-verde_141793-119254.avif" alt="" width="440px" class="rounded-tl-full rounded-tr-full rounded-br-lg rounded-bl-xl">
+      </div>
+    </section>
 
+    <section class="flex flex-col items-center justify-center my-10 md:flex-row md:gap-x-20 lg:gap-x-40">
+      <div class="flex flex-col order-2 h-full py-10 max-w-96 gap-y-6 md:order-1">
+        <h2 class="text-4xl font-bold md:text-5xl lg:text-6xl text-start">Encuentra un centro de diganostico y agenda tu estudio</h2>
+        <span class="font-semibold text-md">Compara los precios del estudio en los diferentes centros de diagnostico</span>
+        <button class="py-2 text-lg font-semibold text-white bg-green-300 rounded-lg px-9">Ver especialistas</button>
+      </div>
+      <div class="flex items-center justify-center order-1 md:order-2">
+        <img src="src/sonriente-joven-doctora-vistiendo-bata-medica-estetoscopio-mostrando-gesto-paz-aislado-sobre-fondo-verde_141793-119254.avif" alt="" width="440px" class="rounded-tl-full rounded-tr-full rounded-br-lg rounded-bl-xl">
+      </div>
     </section>
-    <section class="flex my-20 flex-col items-center px-6 sm:px-10 lg:px-20 py-10 mx-10 sm:mx-20 lg:mx-40 gap-y-10 bg-teal-400 border-[6px] border-white rounded-xl">
+
+    <section class="flex my-20 flex-col items-center px-6 md:px-10 lg:px-20 py-10 gap-y-10 bg-teal-400 border-[6px] border-white rounded-xl">
       <div class="flex flex-col items-center text-center gap-y-2">
         <h2 class="text-2xl font-bold text-cyan-950">¿Has tenido COVID y aún presentas los síntomas?</h2>
-        <h4 class="text-sm text-gray-800">Revisa el estado de tus pulmones con una radiografía de tórax.</h4>
+        <h4 class="text-gray-800 text-md">Revisa el estado de tus pulmones con una radiografía de tórax.</h4>
       </div>
-      <button class="px-4 py-1 bg-white rounded sm:px-6 lg:px-8 w-fit text-gray-950">Agenda un TAC de tórax</button>
+      <!-- <button class="px-4 py-1 bg-white rounded md:px-6 lg:px-8 w-fit text-gray-950">Agenda un TAC de tórax</button> -->
     </section>
   </main>
 
-  <footer class="flex flex-col justify-between w-full mt-auto shadow-sm bg-cyan-50">
+  <footer class="flex flex-col justify-between w-full mt-auto shadow-md bg-cyan-50">
     <div class="grid justify-between grid-cols-1 p-10 sm:grid-cols-2 md:grid-cols-4 gap-y-6">
       <div class="flex flex-col flex-1 gap-y-3">
         <h3 class="text-2xl font-bold text-teal-600">LOGO</h3>
@@ -95,7 +109,7 @@
         </ul>
       </div>
     </div>
-    <div class="px-10 py-6 text-sm border-t border-gray-400">
+    <div class="px-10 py-6 border-t border-gray-400 text-md">
       &copy; 2024, Medicine Plus. All rights reserved.
     </div>
   </footer>
